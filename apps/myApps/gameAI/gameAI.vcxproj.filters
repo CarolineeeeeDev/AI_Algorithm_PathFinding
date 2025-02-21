@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rigidbody.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Target.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PerlinNoise\PerlinNoise.cpp">
+      <Filter>src\PerlinlNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PerlinNoise\ppm.cpp">
+      <Filter>src\PerlinlNoise</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PerlinlNoise">
+      <UniqueIdentifier>{628f9d75-69b3-4d29-81b5-7789702350b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rigidbody.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Target.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PerlinNoise\PerlinNoise.h">
+      <Filter>src\PerlinlNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PerlinNoise\ppm.h">
+      <Filter>src\PerlinlNoise</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
