@@ -108,18 +108,14 @@
     <ClCompile Include="src\Boid.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
-    <ClCompile Include="src\PerlinNoise\PerlinNoise.cpp" />
-    <ClCompile Include="src\PerlinNoise\ppm.cpp" />
     <ClCompile Include="src\Rigidbody.cpp" />
-    <ClCompile Include="Target.cpp" />
+    <ClCompile Include="src\Spot.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Boid.h" />
     <ClInclude Include="src\ofApp.h" />
-    <ClInclude Include="src\PerlinNoise\PerlinNoise.h" />
-    <ClInclude Include="src\PerlinNoise\ppm.h" />
     <ClInclude Include="src\Rigidbody.h" />
-    <ClInclude Include="Target.h" />
+    <ClInclude Include="src\Spot.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
