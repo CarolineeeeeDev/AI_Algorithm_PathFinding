@@ -9,6 +9,7 @@ Boid::Boid()
     alignMagnitude = 0.5;
     cohesionMagnitude = 1.0;
     separationMagnitude = 1.3;
+
 }
 
 void Boid::update() {
@@ -20,12 +21,12 @@ void Boid::update() {
 void Boid::show()
 {
     float r = rb.r;
-    ofSetColor(colorR,colorG, colorB);
+    ofSetColor(255,0, 0);
     ofPushMatrix();
     ofTranslate(rb.position);
     ofRotateDeg(rb.rotation);
-    ofDrawCircle(0, 0, r);
-    ofDrawTriangle(-r / 2, -3 * r / 4, -r / 2, 3 * r / 4, 2*r, 0);
+    ofDrawCircle(0, 0, r-2);
+    //ofDrawTriangle(-r / 2, -3 * r / 4, -r / 2, 3 * r / 4, 2*r, 0);
     ofPopMatrix();
     for (const auto& path : paths) {
         ofBeginShape();

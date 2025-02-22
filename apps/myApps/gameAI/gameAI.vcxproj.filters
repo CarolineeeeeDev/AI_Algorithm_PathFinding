@@ -13,7 +13,13 @@
     <ClCompile Include="src\Boid.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Spot.cpp">
+    <ClCompile Include="src\Node.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graph.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +38,13 @@
     <ClInclude Include="src\Boid.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\Spot.h">
+    <ClInclude Include="src\Node.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graph.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

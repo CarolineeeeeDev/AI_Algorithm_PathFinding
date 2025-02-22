@@ -106,16 +106,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Boid.cpp" />
+    <ClCompile Include="src\Graph.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Map.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\Rigidbody.cpp" />
-    <ClCompile Include="src\Spot.cpp" />
+    <ClCompile Include="src\Node.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Boid.h" />
+    <ClInclude Include="src\Graph.h" />
+    <ClInclude Include="src\Map.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\Rigidbody.h" />
-    <ClInclude Include="src\Spot.h" />
+    <ClInclude Include="src\Node.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">

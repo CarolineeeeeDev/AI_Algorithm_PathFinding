@@ -2,6 +2,7 @@
 #include "ofMain.h"
 #include "Rigidbody.h"
 //#include "PerlinNoise/PerlinNoise.h"
+#include "Node.h"
 
 class Boid {
 
@@ -22,6 +23,8 @@ public:
     float alignMagnitude;
     float cohesionMagnitude;
     float separationMagnitude;
+    int currentTargetIndex;
+
     void update();
     void show();
     void edges();
