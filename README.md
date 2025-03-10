@@ -1,5 +1,14 @@
 # AI_Algorithm_PathFinding
 
+This is an assignment from University of Utah MEAE, GAMES 6610
+
+How to run my code
+apps/myApps/gameAI/gameAI.sln : build and run
+
+Source code path
+apps/myApps/gameAI/src
+
 Dijkstra’s Algorithm, A*, PathFinding
 
-https://github.com/CarolineeeeeDev/AI_Algorithm_PathFinding/blob/main/letter.pdf
+Process Letter
+/letter.pdf
